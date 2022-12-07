@@ -15,7 +15,7 @@ C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59552
+65275
 Successfully changed project path to: C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja
 C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 73.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,687 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003198 seconds.
+Registered in 0.004381 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 95.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.547 seconds
+- Completed reload, in  0.867 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (868ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (395ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
+			SetupTypeCache (177ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (340ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (71ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007248 seconds.
+Registered in 0.007792 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  1.335 seconds
 Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1336ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3354 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (113.5 KB). Loaded Objects now: 3813.
-Memory consumption went from 115.6 MB to 115.5 MB.
-Total: 2.603500 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.155800 ms  DeleteObjects: 0.096200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 17202.581688 seconds.
-  path: Assets/Triangularity/ColorfulCity
-  artifactKey: Guid(081e87f1242ab22488ca0c626f225cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity using Guid(081e87f1242ab22488ca0c626f225cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a53eed9399522cce166e09200b8bbc') in 0.011739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.865350 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Bench1_a_LP_LOD0.FBX
-  artifactKey: Guid(bb9b13200079fae47892ba1b7dd55f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Bench1_a_LP_LOD0.FBX using Guid(bb9b13200079fae47892ba1b7dd55f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e2e022f0d5f81679bca6b577848d8') in 0.117773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Pavement4_a_LP_LOD0.FBX
-  artifactKey: Guid(d067d7fb0c40c5640a927e1e8c77fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Pavement4_a_LP_LOD0.FBX using Guid(d067d7fb0c40c5640a927e1e8c77fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeda61c590343318f7815ade9fda30df') in 0.020490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building5_a_LP_LOD0.FBX
-  artifactKey: Guid(d6a87391515c377449046829b15d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building5_a_LP_LOD0.FBX using Guid(d6a87391515c377449046829b15d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc18f8c743720142e0544585ac898e2f') in 0.019336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Hedge1_c_LP_LOD0.FBX
-  artifactKey: Guid(4e26c6865d195754a898911d38b413b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Hedge1_c_LP_LOD0.FBX using Guid(4e26c6865d195754a898911d38b413b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef61b9dfb16c1d61244d101559f56bc3') in 0.022688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Hedge1_a_LP_LOD0.FBX
-  artifactKey: Guid(54378b3951d3c91478a6944b5af872d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Hedge1_a_LP_LOD0.FBX using Guid(54378b3951d3c91478a6944b5af872d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c8fb21e17245b80d8568a3e8c930ab') in 0.028804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building11_a_LP_LOD0.FBX
-  artifactKey: Guid(b650caf2bd195194f8d1d485679d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building11_a_LP_LOD0.FBX using Guid(b650caf2bd195194f8d1d485679d2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af5d8a0a067b0b85792d5b7ab1ced6d') in 0.025788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Hedge1_d_LP_LOD0.FBX
-  artifactKey: Guid(e9f9eb3e72f6e114eb42e25fed863aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Hedge1_d_LP_LOD0.FBX using Guid(e9f9eb3e72f6e114eb42e25fed863aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ed921f4009e383e05aca2c3904c2a8') in 0.020100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building12_a_LP_LOD0.FBX
-  artifactKey: Guid(8aad1db0251333b43b36de780007c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building12_a_LP_LOD0.FBX using Guid(8aad1db0251333b43b36de780007c73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb023560f706f30c9a3ef354c0ff7ee') in 0.028021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building1_a_LP_LOD0.FBX
-  artifactKey: Guid(04282c62c8486c14cb3c7448eb4fd8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building1_a_LP_LOD0.FBX using Guid(04282c62c8486c14cb3c7448eb4fd8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0635bbe565ff4b59037c83d7193c867') in 0.030146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building3_a_LP_LOD0.FBX
-  artifactKey: Guid(8ec8df010e556644f9fe69b45d15fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building3_a_LP_LOD0.FBX using Guid(8ec8df010e556644f9fe69b45d15fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f163df4a55825c6687fd9fa2020eff') in 0.023951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Road1_a_LP_LOD0.FBX
-  artifactKey: Guid(e89496f74d122be42af733561214705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Road1_a_LP_LOD0.FBX using Guid(e89496f74d122be42af733561214705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4d494f3cb0b7561c1d83a0c521a45') in 0.022660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building6_a_LP_LOD0.FBX
-  artifactKey: Guid(33ab114a7e985694786338b2a45e05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building6_a_LP_LOD0.FBX using Guid(33ab114a7e985694786338b2a45e05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bd363271844c2532f51d494db373ab') in 0.027402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Road2_a_LP_LOD0.FBX
-  artifactKey: Guid(e6813bf3c9c769c4eae8820276f8e046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Road2_a_LP_LOD0.FBX using Guid(e6813bf3c9c769c4eae8820276f8e046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ce646eace71ab0c3c74cc2c15d5b7') in 0.024850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building7_a_LP_LOD0.FBX
-  artifactKey: Guid(1116df919725f4b4ab47f8b4ba0f6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building7_a_LP_LOD0.FBX using Guid(1116df919725f4b4ab47f8b4ba0f6562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11b0369666264515da88e24ecb1ac71') in 0.028623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Pavement2_d_LP_LOD0.FBX
-  artifactKey: Guid(926e292436f55b84b853dea6b310e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Pavement2_d_LP_LOD0.FBX using Guid(926e292436f55b84b853dea6b310e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452af588188340b71d9dc5821de219a4') in 0.023246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Hedge1_b_LP_LOD0.FBX
-  artifactKey: Guid(60a554a8411528449a331c20d2bd3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Hedge1_b_LP_LOD0.FBX using Guid(60a554a8411528449a331c20d2bd3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f326ff10ff485e0dc29f08ca88b6ac0') in 0.022145 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building4_a_LP_LOD0.FBX
-  artifactKey: Guid(8cc66da096887cf408db5dc8b60773e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building4_a_LP_LOD0.FBX using Guid(8cc66da096887cf408db5dc8b60773e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd225890ef96f82ee2e3e650c44527d4f') in 0.026092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Building8_a_LP_LOD0.FBX
-  artifactKey: Guid(8ad6407b6d7fab44ba0c3798697bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Building8_a_LP_LOD0.FBX using Guid(8ad6407b6d7fab44ba0c3798697bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90dfe1fba2f17d58fa8f699781785eb') in 0.022482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.531050 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Road3_a_LP_LOD0.FBX
-  artifactKey: Guid(761e370992fb47f4d95895b4c2c667ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Road3_a_LP_LOD0.FBX using Guid(761e370992fb47f4d95895b4c2c667ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a941d1dbf8ec6b5e5876d730a35c5bcf') in 0.016098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp2_a_LP_LOD0.FBX
-  artifactKey: Guid(42dc71221943b464ea1960184b845335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp2_a_LP_LOD0.FBX using Guid(42dc71221943b464ea1960184b845335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2563e17ec86eff4eef906deb73929c') in 0.023199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp1_d_LP_LOD0.FBX
-  artifactKey: Guid(7278b045b2539ac41b89b0f39521e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp1_d_LP_LOD0.FBX using Guid(7278b045b2539ac41b89b0f39521e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24587c5ec3d810f433439f7fefad85c4') in 0.024351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/StreetLamp1_b_LP_LOD0.FBX
-  artifactKey: Guid(526b3d0d302d57c419ed07e29d2668b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/StreetLamp1_b_LP_LOD0.FBX using Guid(526b3d0d302d57c419ed07e29d2668b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad32adb48116b3c460bc432e62f93c1') in 0.025462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.149326 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree2_a_LP_LOD0.FBX
-  artifactKey: Guid(3ca6e983415658b4d82c0c33f3c693ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree2_a_LP_LOD0.FBX using Guid(3ca6e983415658b4d82c0c33f3c693ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ce863d25c1df5bb8a39876ba6542c9') in 0.014526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree6_b_LP_LOD0.FBX
-  artifactKey: Guid(3aac68bbc030d114cb5b668914a10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree6_b_LP_LOD0.FBX using Guid(3aac68bbc030d114cb5b668914a10e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd978fe8fb4dc6bff2ffd602c6a21efa9') in 0.019459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree5_b_LP_LOD0.FBX
-  artifactKey: Guid(4003519d19bf0804ea0b63a7d5702710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree5_b_LP_LOD0.FBX using Guid(4003519d19bf0804ea0b63a7d5702710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8c7da753c60a517bdd3c5b9f66715') in 0.023179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree4_a_LP_LOD0.FBX
-  artifactKey: Guid(c5125654829f3d9479c8564292ccb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree4_a_LP_LOD0.FBX using Guid(c5125654829f3d9479c8564292ccb899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45c12989a2f1d6ec9f98fe14ffd1af5') in 0.021981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree8_a_LP_LOD0.FBX
-  artifactKey: Guid(8d5816f2934a08d4f8886e4b325864ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree8_a_LP_LOD0.FBX using Guid(8d5816f2934a08d4f8886e4b325864ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583834d5a40c899fa72a9fd10fe0abef') in 0.020130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Tree5_a_LP_LOD0.FBX
-  artifactKey: Guid(7c37a3d113916f44b906d808b7e77dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Tree5_a_LP_LOD0.FBX using Guid(7c37a3d113916f44b906d808b7e77dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc14ecd87186029052d7372731efa57') in 0.021479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.228803 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Road3_a_Turn1_LP_0.prefab
-  artifactKey: Guid(4834574933ee18e43b2042dbd5df57cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road3_a_Turn1_LP_0.prefab using Guid(4834574933ee18e43b2042dbd5df57cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c80dc05873b3d8b0a66ee5d01eb4d57') in 0.011860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree5_a_Pine_LP_0.prefab
-  artifactKey: Guid(19cbae9c2b86a904ca1f6f77e527e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree5_a_Pine_LP_0.prefab using Guid(19cbae9c2b86a904ca1f6f77e527e0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a729000e4e93e77b2aca390b3ec768c7') in 0.008237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree6_a_Rectangular_LP_0.prefab
-  artifactKey: Guid(5a82c4050ba78bc4c928315db8e8607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree6_a_Rectangular_LP_0.prefab using Guid(5a82c4050ba78bc4c928315db8e8607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aece22e42d542e9f8d9a56e94e33e83a') in 0.009273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_b_TwoInline_LP_0.prefab
-  artifactKey: Guid(a599eed6b7e08e648a0338c16f53f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_b_TwoInline_LP_0.prefab using Guid(a599eed6b7e08e648a0338c16f53f082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a86edd090c54c71fa128d6cd7294bea') in 0.008389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab
-  artifactKey: Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree1_a_Cylindrical_LP_0.prefab using Guid(5f3f623fe259a03489d0e7880ed5cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0421e7ed18fda8a2c6cb76e18acd8140') in 0.010334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree8_a_Twisted_LP_0.prefab
-  artifactKey: Guid(a5859d46e68814148bac8c8abf09639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree8_a_Twisted_LP_0.prefab using Guid(a5859d46e68814148bac8c8abf09639e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79272c852d659a0f880efa480dd41d1') in 0.009783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_a_FourLights_LP_0.prefab
-  artifactKey: Guid(87942fe74bd1e004e8912c2311198ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_a_FourLights_LP_0.prefab using Guid(87942fe74bd1e004e8912c2311198ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe7137e715a9a87c8d826059b4a1c59') in 0.009265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_d_Single_LP_0.prefab
-  artifactKey: Guid(f58d979fd5d38804cbf9275268bee0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/StreetLamp1_d_Single_LP_0.prefab using Guid(f58d979fd5d38804cbf9275268bee0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e325bb9dfb67355a0acf8b49abcac8') in 0.008970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree1_b_Cylindrical_LP_0.prefab
-  artifactKey: Guid(fb0b93a9ce9aa3842ad4f89077a33071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree1_b_Cylindrical_LP_0.prefab using Guid(fb0b93a9ce9aa3842ad4f89077a33071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd6a5731a12177d5de180a39f0be5f6') in 0.009090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab
-  artifactKey: Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Tree6_c_Rectangular_LP_0.prefab using Guid(aff2ba904def4dc468a3abcffc484624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40796587422fa94f071c620185d2db15') in 0.009410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.886533 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab
-  artifactKey: Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Bench1_a_Backrest_LP_0.prefab using Guid(589e902e1e292d64990d1ae7cf5b8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862c5728e0ce62cba27ce4abe83c3680') in 0.008753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_a_Turn_LP_0.prefab
-  artifactKey: Guid(ce0c57502a1b7d64cb77ba2ee025cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement3_a_Turn_LP_0.prefab using Guid(ce0c57502a1b7d64cb77ba2ee025cc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45161d6a7fb95d4b3bee8b27df42098d') in 0.011535 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_b_Short_LP_0.prefab
-  artifactKey: Guid(c0c0929d582e5ab439b6383bff59eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_b_Short_LP_0.prefab using Guid(c0c0929d582e5ab439b6383bff59eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8e8b2b2bbf0db85ad3c33a673a4083') in 0.010651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building11_a_Hangar_LP_0.prefab
-  artifactKey: Guid(78e154100981a664986120579967128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building11_a_Hangar_LP_0.prefab using Guid(78e154100981a664986120579967128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2702c834fdd86ebe922b7525ac446218') in 0.010310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building2_a_Long1_LP_0.prefab
-  artifactKey: Guid(f4bafa207dcb01c458c6178991745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building2_a_Long1_LP_0.prefab using Guid(f4bafa207dcb01c458c6178991745db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8729a471b8f0edecd99f46b7310bf7') in 0.009392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement4_a_End_LP_0.prefab
-  artifactKey: Guid(72f9a003ff9052849975cac7d2fb5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement4_a_End_LP_0.prefab using Guid(72f9a003ff9052849975cac7d2fb5aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc96edac4d54ba22fe045fce57245f41') in 0.008195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building6_a_Cube_LP_0.prefab
-  artifactKey: Guid(f6c7e6cc783e62b4bbf3ef10b5adec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building6_a_Cube_LP_0.prefab using Guid(f6c7e6cc783e62b4bbf3ef10b5adec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9890c74689651f09935988610fed9f1c') in 0.010528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab
-  artifactKey: Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building4_a_Medium_LP_0.prefab using Guid(fd8a784aae75f8744b691a69cb522305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd248872fe628a69bb08101a167ed2') in 0.009147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Road1_b_Medium_LP_0.prefab
-  artifactKey: Guid(77ec183ae9049a04f826e7848931ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road1_b_Medium_LP_0.prefab using Guid(77ec183ae9049a04f826e7848931ddfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd863144fb54360cdda19ed2b37f83') in 0.009984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building7_a_Tall2_LP_0.prefab
-  artifactKey: Guid(f21a816fa57d6024f95c6c1cb19d2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building7_a_Tall2_LP_0.prefab using Guid(f21a816fa57d6024f95c6c1cb19d2329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce49e25c0635517cf9d5d5c72f680786') in 0.010780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab
-  artifactKey: Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_b_Line_Short_LP_0.prefab using Guid(d57f70807d776784ea83613eb22900ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115059fdd74ca466e3cc901475288f60') in 0.010004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_b_Cross_LP_0.prefab
-  artifactKey: Guid(bde37b1057f6e5e4a90a9f948f97d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement1_b_Cross_LP_0.prefab using Guid(bde37b1057f6e5e4a90a9f948f97d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67971e2bd7a9e6a797ea2ef25ca7598') in 0.008954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building14_a_Library_LP_0.prefab
-  artifactKey: Guid(d0acf689229536e4085c72851f03dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building14_a_Library_LP_0.prefab using Guid(d0acf689229536e4085c72851f03dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597e90d1bdc744ba1bdb4ed239f9e287') in 0.009612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building8_a_Long2_LP_0.prefab
-  artifactKey: Guid(0d847838b0538234a9c7f359039231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building8_a_Long2_LP_0.prefab using Guid(0d847838b0538234a9c7f359039231ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97de940ca8fcfc35083f016717a72ee') in 0.011285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_d_Long_LP_0.prefab
-  artifactKey: Guid(35a8a0e030d6e2244a1dda22e45b5fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Hedge1_d_Long_LP_0.prefab using Guid(35a8a0e030d6e2244a1dda22e45b5fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25693e86a50827241dc916cd1a59375') in 0.010469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Building1_a_MainHall_LP_0.prefab
-  artifactKey: Guid(c3270c0a497388147b94c53587100b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Building1_a_MainHall_LP_0.prefab using Guid(c3270c0a497388147b94c53587100b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f0fd49f50450cedd8ff5e16033ed8b') in 0.009341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Road1_a_Long_LP_0.prefab
-  artifactKey: Guid(7789df142410c6a468d250e0a8fd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Road1_a_Long_LP_0.prefab using Guid(7789df142410c6a468d250e0a8fd0267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6413627579285a56f9d4934c9763e9') in 0.008377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_d_Line_Long_LP_0.prefab
-  artifactKey: Guid(c8c5b2fb8b76eb04893644d72505a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Prefabs/Pavement2_d_Line_Long_LP_0.prefab using Guid(c8c5b2fb8b76eb04893644d72505a184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4ea3695ac8fd41893a280209ad5e67') in 0.009504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.196326 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials/Floor_gray(Demo).mat
-  artifactKey: Guid(db01edb5216e4f64da27be92bd70d38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials/Floor_gray(Demo).mat using Guid(db01edb5216e4f64da27be92bd70d38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c57da863f13b5c52f4f1f4a0c1e6c1a') in 0.308804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials/MainMaterial.mat
-  artifactKey: Guid(cf5bbda7d88964b45aad08c532a1ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials/MainMaterial.mat using Guid(cf5bbda7d88964b45aad08c532a1ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77213589e6f924a4ec29a220e761ac41') in 0.222294 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004589 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (929ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (456ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.8 KB). Loaded Objects now: 3862.
-Memory consumption went from 120.8 MB to 120.7 MB.
-Total: 4.036600 ms (FindLiveObjects: 0.381600 ms CreateObjectMapping: 0.598800 ms MarkObjects: 2.920100 ms  DeleteObjects: 0.134400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.510366 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Bench1_a_Collider.FBX
-  artifactKey: Guid(38517c1f926a9c942ac133676611e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Bench1_a_Collider.FBX using Guid(38517c1f926a9c942ac133676611e31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a129f37673083c9750d7c846bb9e673') in 0.077620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building1_a_Collider.FBX
-  artifactKey: Guid(7d6d858bd7b79c847b97a1960b2ee1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building1_a_Collider.FBX using Guid(7d6d858bd7b79c847b97a1960b2ee1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17813ad6610aaf9b736b0009fa4d7e1') in 0.020172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree5_a_Collider.FBX
-  artifactKey: Guid(1ba8628fde17b674882035ef588e46b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree5_a_Collider.FBX using Guid(1ba8628fde17b674882035ef588e46b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5916abc9798514323564f19b2103d') in 0.020997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_b_Collider.FBX
-  artifactKey: Guid(b50e00447e0edd849ad70a15e04f2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_b_Collider.FBX using Guid(b50e00447e0edd849ad70a15e04f2849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef09c408f698f96b22377a4e01f99a14') in 0.025730 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree8_a_Collider.FBX
-  artifactKey: Guid(6059268f9a788ce47ab26d092868d02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree8_a_Collider.FBX using Guid(6059268f9a788ce47ab26d092868d02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce16cd13429215e102135af280e86ec4') in 0.025585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree7_a_Collider.FBX
-  artifactKey: Guid(de6ee73ab15905a438f3b0581f9d92d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree7_a_Collider.FBX using Guid(de6ee73ab15905a438f3b0581f9d92d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f42cea267c7780cce6d80fc7c22a512') in 0.030678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_a_Collider.FBX
-  artifactKey: Guid(d07e95979dc3cf541849b210b5ee3d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_a_Collider.FBX using Guid(d07e95979dc3cf541849b210b5ee3d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508163734f1675d9b13fce73260b1e68') in 0.021797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building7_a_Collider.FBX
-  artifactKey: Guid(415b812b9cfcdee4b899373c447e2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building7_a_Collider.FBX using Guid(415b812b9cfcdee4b899373c447e2f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df8cb805deec29d6b061accadc8c00e') in 0.026308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building11_a_Collider.FBX
-  artifactKey: Guid(e34615153fd89df46b14b96d71249d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building11_a_Collider.FBX using Guid(e34615153fd89df46b14b96d71249d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeed0d9bea0e59b3b7c297a31f6c87d') in 0.024040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building10_a_Collider.FBX
-  artifactKey: Guid(f0aa98f46de599149987fd647b5fcf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building10_a_Collider.FBX using Guid(f0aa98f46de599149987fd647b5fcf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6083a6c1014a491fa5b8767d201a4b7') in 0.026215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_c_Collider.FBX
-  artifactKey: Guid(b3762c8bb8f9d8449835648571ef9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp1_c_Collider.FBX using Guid(b3762c8bb8f9d8449835648571ef9e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8625e56ee98aa7749e1d29644f554080') in 0.020636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree1_b_Collider.FBX
-  artifactKey: Guid(17a044bfeacf6ee49ae947c95f7d9e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree1_b_Collider.FBX using Guid(17a044bfeacf6ee49ae947c95f7d9e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4da1dfae1b33e0b82f3b33449c72cf3') in 0.027367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree5_b_Collider.FBX
-  artifactKey: Guid(aa7197de92e916b4087b494a33866c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree5_b_Collider.FBX using Guid(aa7197de92e916b4087b494a33866c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba856fb456cb4c5dbf44abeaccf4f852') in 0.022140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp2_a_Collider.FBX
-  artifactKey: Guid(77838b7e655fa1640aa4d38d8ddf5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/StreetLamp2_a_Collider.FBX using Guid(77838b7e655fa1640aa4d38d8ddf5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdfe40d7d930a2e667a3d7896608842') in 0.025638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building6_a_Collider.FBX
-  artifactKey: Guid(0f13cb52403f5be4a90ad6ba90b09f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building6_a_Collider.FBX using Guid(0f13cb52403f5be4a90ad6ba90b09f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd946172c20be00efe246b610295d2c04') in 0.029544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree6_c_Collider.FBX
-  artifactKey: Guid(12897d6907a0f1a44b575c9ee3767f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree6_c_Collider.FBX using Guid(12897d6907a0f1a44b575c9ee3767f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ac6cc3b579c8154ec7a657a7829afd') in 0.022619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Building2_a_Collider.FBX
-  artifactKey: Guid(ed58c3ad50d48dd4b968a5439c260586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Building2_a_Collider.FBX using Guid(ed58c3ad50d48dd4b968a5439c260586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5cdedeeb8f5a1aa5cc678ef8755c9c') in 0.024321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Triangularity/ColorfulCity/Models/Colliders/Tree6_b_Collider.FBX
-  artifactKey: Guid(b4fc57dc6b325714eaab2af398e539ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Models/Colliders/Tree6_b_Collider.FBX using Guid(b4fc57dc6b325714eaab2af398e539ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7061ee268fd66e0cb70d6d2c0952c6f2') in 0.023581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.237030 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials
-  artifactKey: Guid(0da10c03bdd09d441b7133a9ef83e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials using Guid(0da10c03bdd09d441b7133a9ef83e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6602ca50b5a1a62082cc3bb098568941') in 0.005587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.103538 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials/Green1.mat
-  artifactKey: Guid(1f0c42af843a48a46a55ebd0b3487ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials/Green1.mat using Guid(1f0c42af843a48a46a55ebd0b3487ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2000edb90508058d6f9a01cfac389c22') in 0.160175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.001009 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials/New Material.mat
-  artifactKey: Guid(1b3182a5f22a2964a9b875e419c06b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials/New Material.mat using Guid(1b3182a5f22a2964a9b875e419c06b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdea0a67a2f0ea724c2ae4ef3532f06') in 0.010643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.287888 seconds.
-  path: Assets/Triangularity/ColorfulCity/Materials/Green2.mat
-  artifactKey: Guid(1b3182a5f22a2964a9b875e419c06b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triangularity/ColorfulCity/Materials/Green2.mat using Guid(1b3182a5f22a2964a9b875e419c06b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e91244d89e97b923fc79aefbd9cf60') in 0.015504 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004010 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (971ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1068ms)
 			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
+			SetupTypeCache (310ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (464ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (528ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.8 KB). Loaded Objects now: 3865.
-Memory consumption went from 120.9 MB to 120.8 MB.
-Total: 3.072600 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.554400 ms  DeleteObjects: 0.113900 ms)
+Unloading 3354 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (113.7 KB). Loaded Objects now: 3814.
+Memory consumption went from 116.0 MB to 115.9 MB.
+Total: 5.921100 ms (FindLiveObjects: 0.474100 ms CreateObjectMapping: 0.290700 ms MarkObjects: 4.978100 ms  DeleteObjects: 0.176000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -756,106 +158,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005123 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.726 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1727ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1391ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (771ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (523ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.94 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.8 KB). Loaded Objects now: 3868.
-Memory consumption went from 120.9 MB to 120.8 MB.
-Total: 6.889800 ms (FindLiveObjects: 0.720900 ms CreateObjectMapping: 0.451500 ms MarkObjects: 5.549900 ms  DeleteObjects: 0.164900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 19597.203525 seconds.
+  path: Assets/Triangularity/ColorfulCity/Scenes/Buildings Showcase.unity
+  artifactKey: Guid(7a4fbf1c0796c71418d23ef6732ae692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triangularity/ColorfulCity/Scenes/Buildings Showcase.unity using Guid(7a4fbf1c0796c71418d23ef6732ae692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a001e1ac494a734a102efe787ead555d') in 0.015310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.905607 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.007032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.974576 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b6d0727329126aa335ce484296d082') in 0.008142 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005117 seconds.
+Registered in 0.011132 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\leasu\ISS_autoskola\ISS_autoskola\Voznja\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.992 seconds
+- Completed reload, in  3.120 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1994ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (3125ms)
+		BeginReloadAssembly (295ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1648ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2660ms)
+			LoadAssemblies (195ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (96ms)
-			SetupLoadedEditorAssemblies (918ms)
+			SetupTypeCache (939ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (1100ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (156ms)
-				ProcessInitializeOnLoadAttributes (625ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (719ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3349 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (79.9 KB). Loaded Objects now: 3871.
-Memory consumption went from 120.9 MB to 120.8 MB.
-Total: 11.636800 ms (FindLiveObjects: 4.466900 ms CreateObjectMapping: 0.535100 ms MarkObjects: 6.444700 ms  DeleteObjects: 0.187200 ms)
+Unloading 22 unused Assets / (80.1 KB). Loaded Objects now: 3817.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 6.329500 ms (FindLiveObjects: 0.472100 ms CreateObjectMapping: 1.036100 ms MarkObjects: 4.675000 ms  DeleteObjects: 0.143900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
