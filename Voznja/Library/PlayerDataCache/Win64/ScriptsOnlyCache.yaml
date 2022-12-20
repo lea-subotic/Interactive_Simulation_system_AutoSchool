@@ -10,8 +10,6 @@ ScriptsOnlyBuild:
     - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -55,13 +53,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2370}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 4044}
     - Class: 114
-      Script: {instanceID: 5220}
+      Script: {instanceID: 5230}
     - Class: 114
-      Script: {instanceID: 6982}
+      Script: {instanceID: 6992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 146
