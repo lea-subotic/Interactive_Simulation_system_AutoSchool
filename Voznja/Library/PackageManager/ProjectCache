@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638060317950849223
-    m_Hash: 2349020075
+      ticks: 638079100527736381
+    m_Hash: 1616461635
   m_LockFileStatus:
     m_FilePath: C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638060318520441136
-    m_Hash: 815515474
+      ticks: 638079100527743713
+    m_Hash: 785664851
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -310,11 +310,13 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     - 3.0.17
+    - 3.0.18
     compatible:
     - 3.0.15
     - 3.0.16
     - 3.0.17
-    verified: 3.0.17
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -541,6 +543,7 @@ m_ResolvedPackages:
     - 1.1.33
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -550,6 +553,7 @@ m_ResolvedPackages:
     - 1.1.33
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -607,7 +611,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -715,12 +719,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -746,7 +752,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
