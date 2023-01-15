@@ -1,524 +1,524 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1673727041955496, "dur": 939805, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727041955528, "dur": 10960, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727041966490, "dur": 32481, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727041998974, "dur": 244861, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727042243838, "dur": 638584, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727042882426, "dur": 12873, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727042896109, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748320220760, "dur": 2108207, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748320221157, "dur": 9960, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748320231121, "dur": 47680, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748320278804, "dur": 989399, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748321268206, "dur": 1049006, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748322317318, "dur": 11648, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748322329925, "dur": 70, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1673727042104230, "dur": 124062, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042105458, "dur": 50222, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042210857, "dur": 4842, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042215702, "dur": 12582, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042216468, "dur": 11025, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042232997, "dur": 1437, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1673727042232143, "dur": 2318, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727042896280, "dur": 191, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321047792, "dur": 196897, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321049391, "dur": 57122, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321221744, "dur": 5940, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321227690, "dur": 16988, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321228847, "dur": 14927, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321250456, "dur": 2235, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1673748321249359, "dur": 3371, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748322330195, "dur": 456, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1673727042275044, "dur":1137, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042276190, "dur":53, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1673727042276259, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1673727042276278, "dur":341, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1673727042276649, "dur":525, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042277174, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856441, "dur":73, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856516, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856614, "dur":82, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856696, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856714, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856720, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856752, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856753, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856764, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856815, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856829, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856833, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856844, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856847, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856852, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856853, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856861, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856879, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042856893, "dur":2239, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1673727042277079, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042277195, "dur":4333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042281528, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042281738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042283741, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042286139, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042286270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042286280, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042288476, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042288515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042288523, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1673727042290101, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042290141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042290865, "dur":2189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042293091, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042293122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042293127, "dur":3260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042296421, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042296467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042296476, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042298352, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042298397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042298404, "dur":11080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042309522, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042309562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042309572, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042312433, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042312478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042312504, "dur":10393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042322933, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042322969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042322976, "dur":7117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042330128, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042330166, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042330172, "dur":8015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042338224, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042338262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042338271, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042347392, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042347431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042347438, "dur":15046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042362520, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042362559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042362567, "dur":7724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042370344, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042370417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042370426, "dur":9206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042379666, "dur":97543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042477217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042477232, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042482023, "dur":45767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042527830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042527849, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042529658, "dur":1098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042530762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042530774, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042532192, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042533060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042533071, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042534030, "dur":46451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042580493, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042580518, "dur":8338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042588900, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042588981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042588991, "dur":8406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042597452, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042597514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042597529, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042602400, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042602461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042602471, "dur":9486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1673727042612013, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1673727042612060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042612071, "dur":7500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1673727042619636, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1673727042619766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1673727042619776, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1673727042624391, "dur":231964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042277593, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042277594, "dur":3951, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042281546, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1673727042281756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042284759, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1673727042286484, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1673727042286541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042286970, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1673727042289252, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1673727042289339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042289345, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1673727042292823, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042292862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042292869, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042295492, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042295535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042295542, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042298389, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042298429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042298455, "dur":12337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042310866, "dur":226751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042537624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042537637, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042540245, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042541086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042541097, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042543495, "dur":43235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042586737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042586748, "dur":9658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042596484, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042596547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042596558, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042600243, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042600291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042600309, "dur":4989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":2, "ts":1673727042605341, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1673727042605387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042605453, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1673727042606740, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1673727042606866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042606875, "dur":7575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1673727042614493, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1673727042614536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1673727042614544, "dur":17482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1673727042632076, "dur":224351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042277064, "dur":123, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042277191, "dur":4234, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042281434, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1673727042281437, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042281482, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1673727042281488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042282224, "dur":3849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1673727042286075, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1673727042286116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042286125, "dur":2844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1673727042289017, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042289068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042289444, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042291819, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042291866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042292028, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042294441, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042294483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042294492, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042297207, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042297245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042297253, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042299416, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042299460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042299468, "dur":12921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042312429, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042312469, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042312481, "dur":10283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042322807, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042322848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042322860, "dur":6999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042329897, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042329945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042329954, "dur":8930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042338922, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042338956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042338964, "dur":23113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042362123, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042362169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042362181, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042366877, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042366914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042366921, "dur":11701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042378660, "dur":103704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042482371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042482387, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042483512, "dur":58831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042542349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042542359, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042543743, "dur":820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042544568, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042544591, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042545724, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042545773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042545782, "dur":6482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042552306, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042552350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042552364, "dur":31011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042583424, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042583472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042583485, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042589358, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042589403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042589412, "dur":8645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042598109, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042598157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042598167, "dur":6150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1673727042604359, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1673727042604490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042605729, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1673727042607718, "dur":1354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1673727042609079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042609090, "dur":5079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1673727042614211, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1673727042614255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1673727042614264, "dur":105768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1673727042720078, "dur":136307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042278078, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042278079, "dur":3447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042281528, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1673727042281664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042283755, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1673727042287082, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1673727042287147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042287421, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1673727042289450, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja.exe" }}
-,{ "pid":12345, "tid":4, "ts":1673727042290033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042290039, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja.exe" }}
-,{ "pid":12345, "tid":4, "ts":1673727042292558, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042292601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042292609, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042295258, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042295307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042295314, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042297666, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042297705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042297712, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042299671, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042299712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042299719, "dur":12154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042311907, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042311948, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042311955, "dur":10860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042322863, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042322922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042322930, "dur":7076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042330041, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042330082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042330089, "dur":11703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042341825, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042341864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042341872, "dur":20242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042362152, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042362195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042362202, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042366116, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042366166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042366175, "dur":7448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042373695, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042373751, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042373759, "dur":8851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042382645, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042382692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042382703, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042383664, "dur":260467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042644140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1673727042644155, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1673727042645927, "dur":210445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042277391, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042277392, "dur":4152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042281545, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1673727042281748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042284670, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1673727042286783, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1673727042286817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042286959, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1673727042289185, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042289235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042289240, "dur":25734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042315015, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042315056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042315064, "dur":8662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042323765, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042323806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042323814, "dur":9127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042332977, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042333016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042333024, "dur":8529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042341609, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042341657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042341666, "dur":20557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042362536, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042362617, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042362623, "dur":3825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042366482, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042366520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042366527, "dur":11334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042377918, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042377963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042377971, "dur":122287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042500354, "dur":6908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042507270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042507284, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042508562, "dur":103547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042612114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042612126, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1673727042613878, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1673727042613921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042613930, "dur":4859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1673727042618983, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1673727042619039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042619051, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1673727042621236, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1673727042621372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1673727042621381, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1673727042622592, "dur":233827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042277227, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042277228, "dur":4301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042281530, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1673727042281715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042283699, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1673727042286333, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1673727042286383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042287369, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1673727042288904, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1673727042288941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042288948, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1673727042292028, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042292069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042292077, "dur":2553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042294666, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042294703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042294710, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042297807, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042297846, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042297853, "dur":12055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042309950, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042310008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042310017, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042314786, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042314837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042314849, "dur":8745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042323636, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042323686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042323693, "dur":8534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042332311, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042332399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042332440, "dur":9000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042341494, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042341542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042341551, "dur":21230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042363150, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042363221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042363229, "dur":14609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042377872, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042377917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042377925, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042382924, "dur":160960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042543889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042543899, "dur":2952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042546906, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042546951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042546960, "dur":11415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042558415, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042558460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042558498, "dur":25628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042584169, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042584420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042584430, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042590251, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042590296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042590318, "dur":7793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042598164, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042598219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042598227, "dur":5395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042603665, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/ColorSchemeManager.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042603712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042603721, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/ColorSchemeManager.dll" }}
-,{ "pid":12345, "tid":6, "ts":1673727042606412, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1673727042606458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1673727042606466, "dur":249667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1673727042856285, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":6, "ts":1673727042856288, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042277926, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042277927, "dur":3603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042281531, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1673727042281729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042283688, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1673727042286165, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1673727042286283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042286291, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1673727042289104, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042289160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042289591, "dur":8383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042298023, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042298067, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042298073, "dur":12233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042310340, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042310377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042310384, "dur":6845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042317266, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042317307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042317316, "dur":8691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042326040, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042326097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042326106, "dur":7125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042333266, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042333341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042333349, "dur":14793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042348177, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042348226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042348235, "dur":14753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042363032, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042363072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042363080, "dur":7151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042370272, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042370318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042370329, "dur":32108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042402476, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042403527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042403540, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042404515, "dur":138521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042543041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042543051, "dur":9510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042552602, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042552645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042552655, "dur":30726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042583424, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042583472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042583485, "dur":6808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042590355, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042590401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042590425, "dur":9298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042599765, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042599810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042599819, "dur":4340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042604219, "dur":153057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042757282, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1673727042757298, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1673727042758568, "dur":97795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042277545, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042277545, "dur":3884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042281434, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1673727042281501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042283584, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":8, "ts":1673727042285939, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1673727042285981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042286030, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1673727042287167, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1673727042287206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042287333, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1673727042289871, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1673727042289905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042290203, "dur":20794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1673727042311151, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042311205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042311213, "dur":6100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042317353, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042317410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042317418, "dur":6550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042324017, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042324428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042324436, "dur":9246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042333718, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042333763, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042333770, "dur":13332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042347137, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042347177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042347187, "dur":14906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042362134, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042362178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042362187, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042366487, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042366524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042366530, "dur":12301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042378865, "dur":181269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042560141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042560151, "dur":28210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042588406, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042588451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042588463, "dur":7935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042596438, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042596483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042596494, "dur":6868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042603397, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042603443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042603452, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1673727042606527, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1673727042606594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1673727042606603, "dur":15658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Voznja_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1673727042622306, "dur":234123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1673727042861735, "dur":2739, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1673727042896529, "dur": 726, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1673727042896092, "dur": 1190, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1673748321316270, "dur":1720, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748321317999, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673748321318075, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673748321318095, "dur":458, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673748321318589, "dur":898, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748321319487, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322297582, "dur":307, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322297889, "dur":122, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298011, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298018, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298026, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298028, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298039, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298041, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298048, "dur":45, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298093, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298099, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298101, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298109, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298111, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298117, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298119, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298126, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298148, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322298171, "dur":3428, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673748321318723, "dur":1283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321320009, "dur":4805, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321324826, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673748321324830, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321324957, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673748321324966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321325935, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673748321328755, "dur":1791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1673748321330553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321331036, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1673748321332475, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673748321332611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321332622, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1673748321335467, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673748321335980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321336473, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673748321338498, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1673748321338654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321338852, "dur":8029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1673748321347005, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321347068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321347078, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321349271, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321349325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321349334, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321350908, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321350951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321350959, "dur":6290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321357317, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321357363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321357376, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321362872, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321363011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321363021, "dur":7929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321371036, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321371125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321371135, "dur":8158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321379332, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321379376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321379388, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321382751, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321382939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321382949, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321389547, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321389607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321389619, "dur":4796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321394452, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321394621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321394630, "dur":24343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321419013, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321419054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321419063, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321423052, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321423100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321423111, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321424474, "dur":134427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321558911, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321558929, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321560770, "dur":73587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321634367, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321634389, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321635958, "dur":93250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321729245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321729262, "dur":5492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321734804, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321734854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321734867, "dur":5111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321740021, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321740069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321740079, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321741708, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321741772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321741785, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321743174, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321743296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321743312, "dur":13044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321756399, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321756451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321756464, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321757828, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321757879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321757889, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321760647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321760694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321760721, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321763205, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321763262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321763273, "dur":7358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673748321770677, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673748321770723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321770798, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1673748321772953, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673748321772998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321773008, "dur":42974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673748321816038, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673748321816088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321816101, "dur":22348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1673748321838499, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1673748321838545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673748321838558, "dur":20029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1673748321858686, "dur":438886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321318797, "dur":1241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321320039, "dur":5025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321325065, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673748321325190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321338307, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1673748321341301, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321341436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321344850, "dur":5014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321349903, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321349943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321349979, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321351881, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321351924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321351934, "dur":5349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321357325, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321357371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321357405, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321362534, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321362580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321362593, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321364346, "dur":392209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321756561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321756574, "dur":8520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321765139, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/ColorSchemeManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321765189, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321765201, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/ColorSchemeManager.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673748321768169, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1673748321768479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321769983, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1673748321771254, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673748321771299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673748321771309, "dur":526181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1673748322297529, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1673748322297531, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321318986, "dur":1060, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321320046, "dur":4804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321324851, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1673748321325047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321334248, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1673748321340265, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1673748321340356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321340365, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1673748321344494, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321344536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321344869, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321345912, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321345964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321346035, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321347481, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321347524, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321347532, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321350482, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321350540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321350550, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321358049, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321358092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321358101, "dur":5491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321363624, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321363668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321363676, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321367597, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321367692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321367702, "dur":13900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321383454, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321384458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321384646, "dur":11544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321396233, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321396275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321396285, "dur":11893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321408217, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321408268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321408278, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321410688, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321410748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321410771, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321414991, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321415070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321415079, "dur":90297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321505434, "dur":146308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321651750, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321651798, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321657112, "dur":37317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321694438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321694468, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321695963, "dur":124593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321820565, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321820817, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673748321822803, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673748321822849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321822861, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1673748321825377, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673748321825430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673748321825443, "dur":94776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1673748321920299, "dur":377270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321319038, "dur":1020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321320059, "dur":5054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321325114, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673748321325247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321339873, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1673748321344282, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1673748321344540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321345177, "dur":25398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1673748321370619, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321370667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321370679, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321375810, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321375853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321375865, "dur":12191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321388098, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321388213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321388223, "dur":8344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321396616, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321396655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321396665, "dur":12406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321409115, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321409252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321409262, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321414362, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321414405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321414416, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321417473, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321417517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321417526, "dur":48982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321466562, "dur":62807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321529398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321529417, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321530849, "dur":171356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321702214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321702232, "dur":26497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321728773, "dur":111223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321840004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321840020, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673748321843654, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673748321843708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321843721, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1673748321845458, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1673748321845514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321845526, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1673748321846975, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1673748321847114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673748321847125, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1673748321851266, "dur":446313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321319148, "dur":919, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321320068, "dur":4923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321324992, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673748321325119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321334722, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673748321338838, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673748321339019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321339044, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673748321341551, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321341664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321341672, "dur":46319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321388036, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321388080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321388089, "dur":4492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321392628, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321392678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321392689, "dur":13651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321406401, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321406464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321406481, "dur":6266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321412790, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321412840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321412852, "dur":4217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321417106, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321417151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321417161, "dur":4030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321421232, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321421277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748321421287, "dur":6923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748321428279, "dur":858481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748322286770, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673748322286789, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673748322288811, "dur":8787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321319298, "dur":777, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321320076, "dur":4754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321324832, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1673748321325121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321337080, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1673748321339708, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673748321339831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321339841, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1673748321343933, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja.exe" }}
+,{ "pid":12345, "tid":6, "ts":1673748321344613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321344619, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja.exe" }}
+,{ "pid":12345, "tid":6, "ts":1673748321346278, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321346322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321346331, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321348708, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321348770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321348781, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321350825, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321350872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321350881, "dur":7066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321357989, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321358036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321358044, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321363660, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321363724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321363731, "dur":3909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321367678, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321367717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321367725, "dur":9075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321376843, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321377396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321377407, "dur":5886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321384722, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321384773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321384782, "dur":11474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321396299, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321396342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321396511, "dur":21764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321418314, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321418354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321418364, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321421719, "dur":212071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321633801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321633817, "dur":13583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321647448, "dur":144164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321791623, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321791645, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673748321796512, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1673748321796668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321796682, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1673748321797965, "dur":43287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1673748321841259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673748321841274, "dur":8830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1673748321850152, "dur":447447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321319344, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321320089, "dur":4727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321324826, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1673748321324975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321327056, "dur":4590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1673748321331748, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1673748321331889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321331948, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1673748321333736, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673748321333874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321333885, "dur":6306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673748321340229, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1673748321340339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321340348, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1673748321341861, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1673748321341974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321341980, "dur":15827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1673748321357864, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321357910, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321357918, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321362854, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321362896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321362905, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321365949, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321365991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321366003, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321367138, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321367226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321367237, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321373991, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321374067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321374088, "dur":8598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321382729, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321382774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321382786, "dur":4627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321387451, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321387491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321387501, "dur":6432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321393974, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321394014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321394023, "dur":15060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321409122, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321409170, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321409179, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321413250, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321413293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321413304, "dur":6213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321419558, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321419599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321419608, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321421237, "dur":253758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321675005, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321675025, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321678480, "dur":40366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321718854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321718872, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321720326, "dur":1068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321721400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321721415, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321722637, "dur":136048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321858691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673748321858708, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673748321861081, "dur":436495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321319441, "dur":667, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321320108, "dur":4711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321324827, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1673748321325089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321334514, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1673748321335804, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1673748321335927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321336145, "dur":5306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1673748321341504, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321341648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321342330, "dur":33884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321376255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321376321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321376331, "dur":9807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321386191, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321386249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321386260, "dur":7283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321393624, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321393692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321393703, "dur":12988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321406735, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321406784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321406796, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321410796, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321410844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321410854, "dur":4409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321415303, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321415376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321415386, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321420070, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321420113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321420122, "dur":2133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321422292, "dur":307943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321730240, "dur":215, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321730468, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321732251, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321732312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321732324, "dur":2517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321734884, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321734946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321734957, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321736539, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321736588, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321736609, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321737876, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321737922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321737932, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321739788, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321739840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321739852, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321742080, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321742140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321742151, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321743364, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321743418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321743428, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321748280, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321748329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321748342, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321750776, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321750827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321750852, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321755210, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321755263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321755276, "dur":3487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321758807, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321758856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321758897, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321760069, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321760116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321760128, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321762007, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321762071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321762085, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321763591, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321763638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321763648, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321765484, "dur":225191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321990685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673748321990703, "dur":8712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Builds/Win-64/Voznja_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673748321999473, "dur":298116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673748322304312, "dur":3882, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1673748322330753, "dur": 1362, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1673748322329901, "dur": 2255, "ph": "X", "name": "Write chrome-trace events", "args": {} },

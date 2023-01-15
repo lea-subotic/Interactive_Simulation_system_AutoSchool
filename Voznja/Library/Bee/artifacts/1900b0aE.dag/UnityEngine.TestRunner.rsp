@@ -327,6 +327,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Users/leasu/ISS_autoskola/ISS_autoskola/Voznja/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-analyzer:"Assets/Elements/Buildings/Buildings/ColorfulCity/Scripts/libs/ColorSchemeManager.dll"
+-analyzer:"Assets/Elements/Buildings/Buildings/ColorfulCity/Scripts/libs/Editor/ColorSchemeManagerEditor.dll"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/AllocatingGCMemoryConstraint.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Assertions/ConstraintsExtensions.cs"
