@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TrafficLight : MonoBehaviour
 {
-    public GameObject traffic_light_3d;
+    // public GameObject traffic_light;
 
     public GameObject plane1;
     public GameObject plane2;
@@ -17,14 +17,14 @@ public class TrafficLight : MonoBehaviour
     void Start()
     {
         // trazi child 3d objekt sveukupnog semafora
-        traffic_light_3d = GameObject.Find("traffic_light_3d");
+        // traffic_light = GameObject.Find("traffic_light_3d");
 
         // plane1 = GameObject.Find("Plane 1");
         // plane2 = GameObject.Find("Plane 2");
         // plane3 = GameObject.Find("Plane 3");
         // plane4 = GameObject.Find("Plane 4");
 
-        mats = traffic_light_3d.GetComponent<Renderer>().materials;
+        mats = gameObject.GetComponent<Renderer>().materials;
 
         for(int i=1; i<mats.Length; i++){
             mats[i].EnableKeyword("_EMISSION");

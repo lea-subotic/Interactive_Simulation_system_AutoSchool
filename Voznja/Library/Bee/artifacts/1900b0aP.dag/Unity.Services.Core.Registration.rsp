@@ -311,8 +311,6 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Telemetry.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Services.Core.Threading.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Elements/Buildings/Buildings/ColorfulCity/Scripts/libs/ColorSchemeManager.dll"
--analyzer:"Assets/Elements/Buildings/Buildings/ColorfulCity/Scripts/libs/Editor/ColorSchemeManagerEditor.dll"
 "Library/PackageCache/com.unity.services.core@1.5.2/Runtime/Registration/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.services.core@1.5.2/Runtime/Registration/CorePackageInitializer.cs"
 -langversion:9.0
