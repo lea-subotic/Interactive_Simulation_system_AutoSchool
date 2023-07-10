@@ -4,7 +4,7 @@ Tema projekta: Simulacija vozačkog ispita
 
 ## Članovi projekta
 
-- Matija Fućek (voditelj)
+- Lea Subotić
+- Matija Fućek
 - Adrian Aničić
 - Franko Budimir
-- Lea Subotić
